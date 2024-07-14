@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import MarkdownView from '.';
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+    expect(MarkdownView).toBeTruthy();
+  });
+});
