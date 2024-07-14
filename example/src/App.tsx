@@ -1,10 +1,33 @@
-import React from 'react'
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import MarkdownView from '@rossonlinesolutions/react-markdown';
 
-import { ExampleComponent } from '@rossonlinesolutions/react-markdown'
-import '@rossonlinesolutions/react-markdown/dist/index.css'
+function App() {
 
-const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const markdown_str = `# Hello
+## Hello2
+
+- [X] check
+- [ ] no check
+
+**bolt** *italic* \`inline code\`
+
+\`\`\`js
+
+function main() {
+  console.log('Hello! This here is a very long string that is here to test the scrolling capabilities of the Markdown component. So just a test!!!')
 }
 
-export default App
+\`\`\`
+
+
+<p>RAW</p>
+`;
+
+  return (
+    <MarkdownView src={markdown_str} />
+  );
+}
+
+export default App;
