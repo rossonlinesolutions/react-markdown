@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import MarkdownView from '@rossonlinesolutions/react-markdown';
 
 function App() {
@@ -26,7 +24,7 @@ function main() {
 `;
 
   return (
-    <MarkdownView src={markdown_str} />
+    <div className="paddings"><MarkdownView src={markdown_str} /></div>
   );
 }
 
