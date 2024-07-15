@@ -1723,7 +1723,7 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@rossonlinesolutions/react-markdown@file:..":
+"@rossonlinesolutions/react-markdown@../":
   version "1.0.0"
   dependencies:
     react-markdown "^9.0.1"
