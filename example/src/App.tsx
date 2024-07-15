@@ -1,5 +1,6 @@
 import React from 'react';
 import MarkdownView from '@rossonlinesolutions/react-markdown';
+import '@rossonlinesolutions/react-markdown/dist/index.css';
 
 function App() {
 
