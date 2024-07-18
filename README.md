@@ -4,8 +4,12 @@
 
 ## Install
 
-```bash
-npm install --save @rossonlinesolutions/react-markdown
+**WIP for github registry**, till now clone this repository and add the following line into your package.json:
+
+```diff
+"dependencies": {
++   "@rossonlinesolutions/react-markdown": "file:/path/to/this/repo/"
+}
 ```
 
 ## Usage
