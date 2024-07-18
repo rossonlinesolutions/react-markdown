@@ -48,6 +48,10 @@ function App() {
 export default App;
 ```
 
+## Run the demo application
+
+To run the demo application, follow the instructions in the [example README](./example/README.md).
+
 ## License
 
 MIT © [Ross Online Solutions](https://github.com/rossonlinesolutions)
