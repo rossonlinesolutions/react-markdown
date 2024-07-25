@@ -4,12 +4,22 @@
   "description": "A markdown render component for react.",
   "author": "RossAdrian",
   "license": "MIT",
-  "repository": "rossonlinesolutions/react-markdown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossonlinesolutions/react-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rossonlinesolutions/react-markdown/issues"
+  },
+  "homepage": "https://github.com/rossonlinesolutions/react-markdown#readme",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
