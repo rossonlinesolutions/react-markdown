@@ -4,12 +4,34 @@
 
 ## Install
 
-**WIP for github registry**, till now clone this repository and add the following line into your package.json:
+### npm
 
-```diff
-"dependencies": {
-+   "@rossonlinesolutions/react-markdown": "file:/path/to/this/repo/"
-}
+To install this package via npm, create a `.npmrc` file at the root of your npm project
+and add the following line to it:
+
+```
+@rossonlinesolutions:registry=https://npm.pkg.github.com/
+```
+
+Then install this package by running:
+
+```sh
+npm install --save @rossonlinesolutions/react-markdown
+```
+
+### yarn
+
+To install this package via yarn, create a `.yarnrc` file at the root of your yarn project
+and add the following line to it:
+
+```
+"@rossonlinesolutions:registry" "https://npm.pkg.github.com/"
+```
+
+Then install this package by running:
+
+```sh
+yarn add @rossonlinesolutions/react-markdown
 ```
 
 ## Usage
