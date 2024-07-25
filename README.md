@@ -2,6 +2,22 @@
 
 > A markdown render component for react.
 
+## Build and Run
+
+To build this package, just run:
+
+```sh
+# Installs all dependencies
+yarn install
+
+# Builds the library
+yarn build
+```
+
+### Run the demo application
+
+To run the demo application, follow the instructions in the [example README](./example/README.md).
+
 ## Install
 
 ### npm
@@ -73,10 +89,6 @@ function App() {
 
 export default App;
 ```
-
-## Run the demo application
-
-To run the demo application, follow the instructions in the [example README](./example/README.md).
 
 ## License
 
