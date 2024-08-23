@@ -7,7 +7,7 @@
     "git.enableCommitSigning": true,
     "git.enabled": true,
     "git.requireGitUserConfig": true,
-    "json.format.enable": true,
+    "json.format.enable": false,
     "javascript.autoClosingTags": true,
     "javascript.experimental.updateImportsOnPaste": true,
     "javascript.format.enable": true,
